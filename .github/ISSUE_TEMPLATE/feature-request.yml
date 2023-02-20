@@ -1,9 +1,7 @@
 name: Feature Suggestion
 description: Suggest a Feature
-title: "Feature Name"
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+title: "FEATURE NAME HERE"
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
