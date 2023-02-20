@@ -32,7 +32,7 @@ body:
         - IMMEDIATE!
         - High Priority, would be greatly needed
         - Medium Priority, it would be nice to have it soon
-        - Low Priority, just a thought that does not need to be added right now
+        - Low Priority, just an idea that does not need to be added anytime soon
     validations:
       required: true
   - type: checkboxes
@@ -49,13 +49,11 @@ body:
           required: false
         - label: None of the above, I think it would just need to modify some of the main scripts 
           required: false
-    validations:
-      required: true
   - type: checkboxes
     id: terms
     attributes:
       label: Agreement
       description: By submitting this suggestion, you agree that you are not submitting spam, troll, or fake suggestions.
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow and abide by the above statement
           required: true
