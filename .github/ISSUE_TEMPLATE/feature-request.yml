@@ -40,8 +40,8 @@ body:
     attributes:
       label: Affected Areas of Code
       description: |
-      (Optional) Do you think this would require it's own class, module, functions script, etc...?
-      If you don't know what this means, you may skip it
+        (Optional) Do you think this would require it's own class, module, functions script, etc...?
+        If you don't know what this means, you may skip it
       options: 
         - label: I think it would need it's own class
           required: false
