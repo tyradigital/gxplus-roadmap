@@ -1,0 +1,73 @@
+name: Bug Report
+description: Report a Bug/Issue
+title: "BUG NAME HERE"
+labels: ["Bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+  - type: input
+    id: contact
+    attributes:
+      label: Discord Info
+      description: |
+        (OPTIONAL) How can we get in touch with you if we need more info?
+        
+        If this is being submitted on behalf of someone, provide their info here
+      placeholder: ex. fisher#8036
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: What does this bug do?
+      description: Please be detailed, and the steps to reproduce
+      placeholder: How does this bug happen?
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version is this bug occurring on?
+      options:
+        - Version 0.1 (DEVELOPMENT)
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: What priority do you see this bug as?
+      options:
+        - IMMEDIATE!
+        - High Priority, needs to be fixed SOON
+        - Medium Priority, it would be nice to have it fixed soon
+    validations:
+      required: true
+  - type: checkboxes
+    id: areas
+    attributes:
+      label: Affected Areas of Code
+      description: |
+        (Optional) Do you know by chance where it needs to be fixed, in a class, module, functions script, etc...?
+        
+        If you don't know what this means, you may skip it
+      options: 
+        - label: I think it the issue lies in a class
+          required: false
+        - label: I think it the issue lies in a module
+          required: false
+        - label: I think it the issue lies in a functions script
+          required: false
+        - label: None of the above, I think it would just need to modify some of the main scripts 
+          required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreement
+      description: By submitting this suggestion, you agree that you are not submitting spam, troll, or fake suggestions.
+      options:
+        - label: I agree to follow and abide by the above statement
+          required: true
