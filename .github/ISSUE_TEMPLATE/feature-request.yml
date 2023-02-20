@@ -11,7 +11,7 @@ body:
     id: contact
     attributes:
       label: Discord Info
-      description: How can we get in touch with you if we need more info?
+      description: (OPTIONAL) How can we get in touch with you if we need more info?
       placeholder: ex. fisher#8036
     validations:
       required: false
@@ -39,7 +39,7 @@ body:
     id: areas
     attributes:
       label: Affected Areas of Code
-      description: (Optional) Do you think this would require it's own class, module, functions script, etc...?
+      description: (Optional) Do you think this would require it's own class, module, functions script, etc...?\n If you don't know what this means, you may skip it
       options: 
         - label: I think it would need it's own class
           required: false
