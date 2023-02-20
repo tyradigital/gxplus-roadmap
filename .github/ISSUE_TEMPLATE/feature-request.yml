@@ -11,7 +11,10 @@ body:
     id: contact
     attributes:
       label: Discord Info
-      description: (OPTIONAL) How can we get in touch with you if we need more info?
+      description: |
+        (OPTIONAL) How can we get in touch with you if we need more info?
+        
+        If this is being submitted on behalf of someone, provide their info here
       placeholder: ex. fisher#8036
     validations:
       required: false
