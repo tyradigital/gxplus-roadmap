@@ -20,18 +20,6 @@ body:
       placeholder: Description
     validations:
       required: true
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: What is the priority of this feature?
-      options:
-        - IMMEDIATE!
-        - High Priority, would be greatly needed
-        - Medium Priority, it would be nice to have it soon
-        - Low Priority, just an idea that does not need to be added anytime soon
-    validations:
-      required: true
   - type: textarea
     id: areas
     attributes:
