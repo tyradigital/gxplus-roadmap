@@ -4,8 +4,6 @@ title: "FEATURE NAME HERE"
 labels: ["Enhancement"]
 assignees:
   - fisherjacobc
-projects:
-  - GX+ Roadmap
 body:
   - type: markdown
     attributes:
