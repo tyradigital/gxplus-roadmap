@@ -38,7 +38,7 @@ body:
         - Low Priority, just an idea that does not need to be added anytime soon
     validations:
       required: true
-   - type: checkboxes
+  - type: checkboxes
     id: areas
     attributes:
       label: Affected Areas of Code
