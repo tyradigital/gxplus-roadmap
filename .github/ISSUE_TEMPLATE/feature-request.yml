@@ -38,6 +38,22 @@ body:
         - Low Priority, just an idea that does not need to be added anytime soon
     validations:
       required: true
+   - type: checkboxes
+    id: areas
+    attributes:
+      label: Affected Areas of Code
+      description: |
+        (Optional) Do you think this would require it's own class, module, functions script, etc...?
+        If you don't know what this means, you may skip it
+      options: 
+        - label: I think it would need it's own class
+          required: false
+        - label: I think it would need it's own module
+          required: false
+        - label: I think it would need it's own functions script
+          required: false
+        - label: None of the above, I think it would just need to modify some of the main scripts 
+          required: false
   - type: checkboxes
     id: terms
     attributes:
