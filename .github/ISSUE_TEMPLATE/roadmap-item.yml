@@ -36,7 +36,7 @@ body:
     id: areas
     attributes:
       label: Affected Areas of Code
-      description: What areas of code would be needed (most likely)?
+      description: What areas of code would be needed (most likely)? (in bullet points form and a checkmark for status updates)
       placeholder: It's own class, module, functions, etc...
     validations:
       required: true
