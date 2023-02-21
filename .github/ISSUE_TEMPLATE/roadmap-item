@@ -1,0 +1,42 @@
+name: Roadmap Feature Item
+description: FOR PROJECT ADMINS ONLY
+title: "FEATURE NAME HERE"
+labels: ["Enhancement"]
+assignees:
+  - fisherjacobc
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # FOR USE BY PROJECT ADMINS ONLY
+        Right now this is only fisher anyways, so don't use this form if you aren't mre.
+        
+        If you use this form you will have 1 notice, and then after that you will be restricted from contributing
+  - type: textarea
+    id: description
+    attributes:
+      label: What would this do?
+      description: Details of how it would work
+      placeholder: Description
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: What is the priority of this feature?
+      options:
+        - IMMEDIATE!
+        - High Priority, would be greatly needed
+        - Medium Priority, it would be nice to have it soon
+        - Low Priority, just an idea that does not need to be added anytime soon
+    validations:
+      required: true
+  - type: textarea
+    id: areas
+    attributes:
+      label: Affected Areas of Code
+      description: What areas of code would be needed (most likely)?
+      placeholder: It's own class, module, functions, etc...
+    validations:
+      required: true
