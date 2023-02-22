@@ -1,7 +1,7 @@
 name: Feature Suggestion
 description: Suggest a Feature
 title: "FEATURE NAME HERE"
-labels: ["Enhancement"]
+labels: ["feature:request"]
 body:
   - type: markdown
     attributes:
