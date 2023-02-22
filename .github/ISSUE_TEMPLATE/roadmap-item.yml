@@ -1,7 +1,7 @@
 name: Roadmap Feature Item
 description: FOR PROJECT ADMINS ONLY
 title: "FEATURE NAME HERE"
-labels: ["Enhancement"]
+labels: ["feature:enhancements"]
 assignees:
   - fisherjacobc
 body:
